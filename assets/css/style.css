@@ -295,6 +295,12 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
   }
 }
+.animation:hover{
+  animation-duration: var(--animate-duration);
+  animation-fill-mode: both;
+  animation-name: heartBeat;
+  transform-origin: center bottom;
+}
 
 /*--------------------------------------------------------------
 # Sections General
